@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetical neue';
+}
+html,
+body {
+        height: 100%;
+        width: 100%;
+}
+
+body{
+    background-color:white;
+}
+#yellowback {
+    height:95%;
+    width:70%;
+    background-color:rgba(237, 237, 52, 0.964);
+    position:relative;
+    top:2%;
+    left:1%;
+    border-radius:20px;
+    
+
+}
+#lightyellow{
+    height: 95%;
+    width:30%;
+    background-color:rgb(255, 248, 186);
+    position:absolute;
+    
+    top:2%;
+    right:1%;
+    
+    border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+}
+#pocimg{
+    background:none ;
+    background-image:none;
+    position:absolute;
+    /* mix-blend-mode: multiply; */
+    top:25%;
+    left:58%;
+    height:60%;
+
+}
+#poclogo{
+    height:10%;
+    position:absolute;
+    background:none;
+    top:5%;
+    left:4%
+
+}
+#pikahed{
+    position:absolute;
+    top:30%;
+    left:7%;
+    font-size:60px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#textgen{
+    position:absolute;
+    top:25%;
+    left:7%;
+    font-size:20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+#textbody{
+    position:absolute;
+    left:7%;
+    top:45%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size:20px;
+}
+#symbolofpoc{
+    height:20%;
+    position:absolute;
+    top: 78%;
+    left:5%;
+    mix-blend-mode:multiply;
+    z-index: -1;
+    
+}
+#acircle{
+    height:10px;
+    width:10px;
+    background-color:black;
+    position:absolute;
+    border-radius:50px;
+    top:42%;
+    left:95%;
+    
+}
+#bcircle{
+    height:10px;
+    width:10px;
+    background-color:rgb(222, 222, 74);
+    position:absolute;
+    border-radius:50px;
+    top:45%;
+    left:95%;
+}
+#ccircle{
+    height:10px;
+    width:10px;
+    background-color:rgb(222, 222, 74);
+    position:absolute;
+    border-radius:50px;
+    top:48%;
+    left:95%;
+}
+#dcircle{
+    height:10px;
+    width:10px;
+    background-color:rgb(222, 222, 74);
+    position:absolute;
+    border-radius:50px;
+    top:51%;
+    left:95%;
+}
